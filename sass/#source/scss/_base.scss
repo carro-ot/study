@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+	font-family: "Poppins";
+}
+
+.wrapper{
+	padding: 0 15px;
+	margin: 0 auto;
+	max-width: 375px;
+	max-height: 812px;
+	margin-top: 50px;
+	background: rgb(241, 240, 255);
+		background: linear-gradient(111deg, rgba(241, 240, 255, 0.38147759103641454) 0%, rgba(173, 216, 255, 0.2862394957983193) 50%, rgba(242, 242, 255, 0.241421568627451) 100%);
+		border-radius: 30px;
+	&__small{
+		max-width: 340px;
+	}
+}
+

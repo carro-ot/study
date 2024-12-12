@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Pet project(calc)</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+		rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+	<div id="calculator-container" class="wrapper">
+		<input class="calc-input" type="tel" id="calculator-display" placeholder="0" readonly>
+		<div class="calc-row">
+				<div class="calc-block">
+				<button onclick="appendNumber('7')" class="calc">7</button>
+				<button onclick="appendNumber('8')" class="calc">8</button>
+				<button onclick="appendNumber('9')" class="calc">9</button>
+				<button onclick="setOperation('*')" class="calc calc-btn__color">×</button>
+			</div>
+			<div class="calc-block">
+				<button onclick="appendNumber('4')" class="calc">4</button>
+				<button onclick="appendNumber('5')" class="calc">5</button>
+				<button onclick="appendNumber('6')" class="calc">6</button>
+				<button onclick="setOperation('-')" class="calc calc-btn__color">-</button>
+			</div>
+			<div class="calc-block">
+				<button onclick="appendNumber('1')" class="calc">1</button>
+				<button onclick="appendNumber('2')" class="calc">2</button>
+				<button onclick="appendNumber('3')" class="calc">3</button>
+				<button onclick="setOperation('+')" class="calc calc-btn__color ">+</button>
+			</div>
+			<div class="calc-block">
+				<button onclick="appendNumber('0')" class="calc">0</button>
+				<button onclick="appendNumber('000')" class="calc">000</button>
+					<button onclick="clearDisplay()" class="calc">C</button>
+				<button onclick="calculator('=')" class="calc calc-btn__color">=</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

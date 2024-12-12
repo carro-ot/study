@@ -1,0 +1,31 @@
+
+.calc-block {
+	text-align: center;
+	
+}
+
+.calc{
+	text-align: center;
+	width: 62px;
+	height: 60px;
+
+
+	
+	background-color: rgba(255, 255, 255, 0.375);
+	border: 1px solid rgba(196, 196, 255, 0.578);
+	border-radius: 30px;
+
+	margin: 5px;
+	margin-right: 10px;
+	font-size: 27px;
+	&:hover{
+		background-color: rgba(229, 228, 255, 0.371);
+		box-shadow: 1px 1px 5px rgb(201, 201, 201);
+	}
+}
+
+.calc-btn__color{
+	background-color: #add7ff59;
+}
+
+
